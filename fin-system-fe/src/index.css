@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.custom-table .ant-table-tbody > tr:hover > td {
+  background-color: #f8fafc;
+}
+
+.custom-table .ant-table {
+  border-radius: 0;
+}
+
+
